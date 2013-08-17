@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F191515A17BF03D900C198C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191515917BF03D900C198C7 /* UIKit.framework */; };
+		F191515C17BF03D900C198C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191515B17BF03D900C198C7 /* Foundation.framework */; };
+		F191515E17BF03D900C198C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191515D17BF03D900C198C7 /* CoreGraphics.framework */; };
+		F191516417BF03D900C198C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F191516217BF03D900C198C7 /* InfoPlist.strings */; };
+		F191516617BF03D900C198C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F191516517BF03D900C198C7 /* main.m */; };
+		F191516A17BF03DA00C198C7 /* VAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F191516917BF03DA00C198C7 /* VAAppDelegate.m */; };
+		F191516C17BF03DA00C198C7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F191516B17BF03DA00C198C7 /* Default.png */; };
+		F191516E17BF03DA00C198C7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F191516D17BF03DA00C198C7 /* Default@2x.png */; };
+		F191517017BF03DA00C198C7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F191516F17BF03DA00C198C7 /* Default-568h@2x.png */; };
+		F191517317BF03DA00C198C7 /* VAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F191517217BF03DA00C198C7 /* VAViewController.m */; };
+		F191517617BF03DA00C198C7 /* VAViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F191517417BF03DA00C198C7 /* VAViewController_iPhone.xib */; };
+		F191517917BF03DA00C198C7 /* VAViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F191517717BF03DA00C198C7 /* VAViewController_iPad.xib */; };
+		F191518017BF07A500C198C7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191517F17BF07A500C198C7 /* QuartzCore.framework */; };
+		F191518217BF07AA00C198C7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191518117BF07AA00C198C7 /* AVFoundation.framework */; };
+		F191518417BF07C500C198C7 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F191518317BF07C500C198C7 /* MediaPlayer.framework */; };
+		F19151AD17BF083E00C198C7 /* BouncingBalls10.png in Resources */ = {isa = PBXBuildFile; fileRef = F191518F17BF083E00C198C7 /* BouncingBalls10.png */; };
+		F19151AE17BF083E00C198C7 /* BouncingBalls11.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519017BF083E00C198C7 /* BouncingBalls11.png */; };
+		F19151AF17BF083E00C198C7 /* BouncingBalls12.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519117BF083E00C198C7 /* BouncingBalls12.png */; };
+		F19151B017BF083E00C198C7 /* BouncingBalls13.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519217BF083E00C198C7 /* BouncingBalls13.png */; };
+		F19151B117BF083E00C198C7 /* BouncingBalls14.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519317BF083E00C198C7 /* BouncingBalls14.png */; };
+		F19151B217BF083E00C198C7 /* BouncingBalls15.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519417BF083E00C198C7 /* BouncingBalls15.png */; };
+		F19151B317BF083E00C198C7 /* BouncingBalls16.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519517BF083E00C198C7 /* BouncingBalls16.png */; };
+		F19151B417BF083E00C198C7 /* BouncingBalls17.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519617BF083E00C198C7 /* BouncingBalls17.png */; };
+		F19151B517BF083E00C198C7 /* BouncingBalls18.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519717BF083E00C198C7 /* BouncingBalls18.png */; };
+		F19151B617BF083E00C198C7 /* BouncingBalls19.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519817BF083E00C198C7 /* BouncingBalls19.png */; };
+		F19151B717BF083E00C198C7 /* BouncingBalls20.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519917BF083E00C198C7 /* BouncingBalls20.png */; };
+		F19151B817BF083E00C198C7 /* BouncingBalls21.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519A17BF083E00C198C7 /* BouncingBalls21.png */; };
+		F19151B917BF083E00C198C7 /* BouncingBalls22.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519B17BF083E00C198C7 /* BouncingBalls22.png */; };
+		F19151BA17BF083E00C198C7 /* BouncingBalls23.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519C17BF083E00C198C7 /* BouncingBalls23.png */; };
+		F19151BB17BF083E00C198C7 /* BouncingBalls24.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519D17BF083E00C198C7 /* BouncingBalls24.png */; };
+		F19151BC17BF083E00C198C7 /* BouncingBalls25.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519E17BF083E00C198C7 /* BouncingBalls25.png */; };
+		F19151BD17BF083E00C198C7 /* BouncingBalls26.png in Resources */ = {isa = PBXBuildFile; fileRef = F191519F17BF083E00C198C7 /* BouncingBalls26.png */; };
+		F19151BE17BF083E00C198C7 /* BouncingBalls27.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151A017BF083E00C198C7 /* BouncingBalls27.png */; };
+		F19151BF17BF083E00C198C7 /* BouncingBalls28.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151A117BF083E00C198C7 /* BouncingBalls28.png */; };
+		F19151C017BF083E00C198C7 /* BouncingBalls29.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151A217BF083E00C198C7 /* BouncingBalls29.png */; };
+		F19151C117BF083E00C198C7 /* BouncingBalls30.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151A317BF083E00C198C7 /* BouncingBalls30.png */; };
+		F19151C717BF093D00C198C7 /* VAAnimationLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F19151C617BF093D00C198C7 /* VAAnimationLayer.m */; };
+		F19151D117BF0A6200C198C7 /* BouncingBalls9.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151C817BF0A6200C198C7 /* BouncingBalls9.png */; };
+		F19151D217BF0A6200C198C7 /* BouncingBalls8.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151C917BF0A6200C198C7 /* BouncingBalls8.png */; };
+		F19151D317BF0A6200C198C7 /* BouncingBalls7.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151CA17BF0A6200C198C7 /* BouncingBalls7.png */; };
+		F19151D417BF0A6200C198C7 /* BouncingBalls6.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151CB17BF0A6200C198C7 /* BouncingBalls6.png */; };
+		F19151D517BF0A6200C198C7 /* BouncingBalls5.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151CC17BF0A6200C198C7 /* BouncingBalls5.png */; };
+		F19151D617BF0A6200C198C7 /* BouncingBalls4.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151CD17BF0A6200C198C7 /* BouncingBalls4.png */; };
+		F19151D717BF0A6200C198C7 /* BouncingBalls3.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151CE17BF0A6200C198C7 /* BouncingBalls3.png */; };
+		F19151D817BF0A6200C198C7 /* BouncingBalls2.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151CF17BF0A6200C198C7 /* BouncingBalls2.png */; };
+		F19151D917BF0A6200C198C7 /* BouncingBalls1.png in Resources */ = {isa = PBXBuildFile; fileRef = F19151D017BF0A6200C198C7 /* BouncingBalls1.png */; };
+		F19151DB17BF0F8300C198C7 /* blackback640x480.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = F19151DA17BF0F8300C198C7 /* blackback640x480.mp4 */; };
+		F19151DD17BF102400C198C7 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19151DC17BF102400C198C7 /* CoreMedia.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F191515617BF03D900C198C7 /* VideoAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F191515917BF03D900C198C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F191515B17BF03D900C198C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F191515D17BF03D900C198C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F191516117BF03D900C198C7 /* VideoAnimation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoAnimation-Info.plist"; sourceTree = "<group>"; };
+		F191516317BF03D900C198C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F191516517BF03D900C198C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F191516717BF03D900C198C7 /* VideoAnimation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoAnimation-Prefix.pch"; sourceTree = "<group>"; };
+		F191516817BF03D900C198C7 /* VAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VAAppDelegate.h; sourceTree = "<group>"; };
+		F191516917BF03DA00C198C7 /* VAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VAAppDelegate.m; sourceTree = "<group>"; };
+		F191516B17BF03DA00C198C7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F191516D17BF03DA00C198C7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F191516F17BF03DA00C198C7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F191517117BF03DA00C198C7 /* VAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VAViewController.h; sourceTree = "<group>"; };
+		F191517217BF03DA00C198C7 /* VAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VAViewController.m; sourceTree = "<group>"; };
+		F191517517BF03DA00C198C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VAViewController_iPhone.xib; sourceTree = "<group>"; };
+		F191517817BF03DA00C198C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/VAViewController_iPad.xib; sourceTree = "<group>"; };
+		F191517F17BF07A500C198C7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F191518117BF07AA00C198C7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F191518317BF07C500C198C7 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		F191518F17BF083E00C198C7 /* BouncingBalls10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls10.png; sourceTree = "<group>"; };
+		F191519017BF083E00C198C7 /* BouncingBalls11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls11.png; sourceTree = "<group>"; };
+		F191519117BF083E00C198C7 /* BouncingBalls12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls12.png; sourceTree = "<group>"; };
+		F191519217BF083E00C198C7 /* BouncingBalls13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls13.png; sourceTree = "<group>"; };
+		F191519317BF083E00C198C7 /* BouncingBalls14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls14.png; sourceTree = "<group>"; };
+		F191519417BF083E00C198C7 /* BouncingBalls15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls15.png; sourceTree = "<group>"; };
+		F191519517BF083E00C198C7 /* BouncingBalls16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls16.png; sourceTree = "<group>"; };
+		F191519617BF083E00C198C7 /* BouncingBalls17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls17.png; sourceTree = "<group>"; };
+		F191519717BF083E00C198C7 /* BouncingBalls18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls18.png; sourceTree = "<group>"; };
+		F191519817BF083E00C198C7 /* BouncingBalls19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls19.png; sourceTree = "<group>"; };
+		F191519917BF083E00C198C7 /* BouncingBalls20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls20.png; sourceTree = "<group>"; };
+		F191519A17BF083E00C198C7 /* BouncingBalls21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls21.png; sourceTree = "<group>"; };
+		F191519B17BF083E00C198C7 /* BouncingBalls22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls22.png; sourceTree = "<group>"; };
+		F191519C17BF083E00C198C7 /* BouncingBalls23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls23.png; sourceTree = "<group>"; };
+		F191519D17BF083E00C198C7 /* BouncingBalls24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls24.png; sourceTree = "<group>"; };
+		F191519E17BF083E00C198C7 /* BouncingBalls25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls25.png; sourceTree = "<group>"; };
+		F191519F17BF083E00C198C7 /* BouncingBalls26.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls26.png; sourceTree = "<group>"; };
+		F19151A017BF083E00C198C7 /* BouncingBalls27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls27.png; sourceTree = "<group>"; };
+		F19151A117BF083E00C198C7 /* BouncingBalls28.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls28.png; sourceTree = "<group>"; };
+		F19151A217BF083E00C198C7 /* BouncingBalls29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls29.png; sourceTree = "<group>"; };
+		F19151A317BF083E00C198C7 /* BouncingBalls30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls30.png; sourceTree = "<group>"; };
+		F19151C517BF093D00C198C7 /* VAAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VAAnimationLayer.h; sourceTree = "<group>"; };
+		F19151C617BF093D00C198C7 /* VAAnimationLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VAAnimationLayer.m; sourceTree = "<group>"; };
+		F19151C817BF0A6200C198C7 /* BouncingBalls9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls9.png; sourceTree = "<group>"; };
+		F19151C917BF0A6200C198C7 /* BouncingBalls8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls8.png; sourceTree = "<group>"; };
+		F19151CA17BF0A6200C198C7 /* BouncingBalls7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls7.png; sourceTree = "<group>"; };
+		F19151CB17BF0A6200C198C7 /* BouncingBalls6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls6.png; sourceTree = "<group>"; };
+		F19151CC17BF0A6200C198C7 /* BouncingBalls5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls5.png; sourceTree = "<group>"; };
+		F19151CD17BF0A6200C198C7 /* BouncingBalls4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls4.png; sourceTree = "<group>"; };
+		F19151CE17BF0A6200C198C7 /* BouncingBalls3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls3.png; sourceTree = "<group>"; };
+		F19151CF17BF0A6200C198C7 /* BouncingBalls2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls2.png; sourceTree = "<group>"; };
+		F19151D017BF0A6200C198C7 /* BouncingBalls1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BouncingBalls1.png; sourceTree = "<group>"; };
+		F19151DA17BF0F8300C198C7 /* blackback640x480.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blackback640x480.mp4; sourceTree = "<group>"; };
+		F19151DC17BF102400C198C7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F191515317BF03D900C198C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F19151DD17BF102400C198C7 /* CoreMedia.framework in Frameworks */,
+				F191518417BF07C500C198C7 /* MediaPlayer.framework in Frameworks */,
+				F191518217BF07AA00C198C7 /* AVFoundation.framework in Frameworks */,
+				F191518017BF07A500C198C7 /* QuartzCore.framework in Frameworks */,
+				F191515A17BF03D900C198C7 /* UIKit.framework in Frameworks */,
+				F191515C17BF03D900C198C7 /* Foundation.framework in Frameworks */,
+				F191515E17BF03D900C198C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F191514D17BF03D900C198C7 = {
+			isa = PBXGroup;
+			children = (
+				F191515F17BF03D900C198C7 /* VideoAnimation */,
+				F191515817BF03D900C198C7 /* Frameworks */,
+				F191515717BF03D900C198C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F191515717BF03D900C198C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F191515617BF03D900C198C7 /* VideoAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F191515817BF03D900C198C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19151DC17BF102400C198C7 /* CoreMedia.framework */,
+				F191518317BF07C500C198C7 /* MediaPlayer.framework */,
+				F191518117BF07AA00C198C7 /* AVFoundation.framework */,
+				F191517F17BF07A500C198C7 /* QuartzCore.framework */,
+				F191515917BF03D900C198C7 /* UIKit.framework */,
+				F191515B17BF03D900C198C7 /* Foundation.framework */,
+				F191515D17BF03D900C198C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F191515F17BF03D900C198C7 /* VideoAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F19151DA17BF0F8300C198C7 /* blackback640x480.mp4 */,
+				F191518517BF083E00C198C7 /* AnimationFrames */,
+				F191516817BF03D900C198C7 /* VAAppDelegate.h */,
+				F191516917BF03DA00C198C7 /* VAAppDelegate.m */,
+				F19151C517BF093D00C198C7 /* VAAnimationLayer.h */,
+				F19151C617BF093D00C198C7 /* VAAnimationLayer.m */,
+				F191517117BF03DA00C198C7 /* VAViewController.h */,
+				F191517217BF03DA00C198C7 /* VAViewController.m */,
+				F191517417BF03DA00C198C7 /* VAViewController_iPhone.xib */,
+				F191517717BF03DA00C198C7 /* VAViewController_iPad.xib */,
+				F191516017BF03D900C198C7 /* Supporting Files */,
+			);
+			path = VideoAnimation;
+			sourceTree = "<group>";
+		};
+		F191516017BF03D900C198C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F191516117BF03D900C198C7 /* VideoAnimation-Info.plist */,
+				F191516217BF03D900C198C7 /* InfoPlist.strings */,
+				F191516517BF03D900C198C7 /* main.m */,
+				F191516717BF03D900C198C7 /* VideoAnimation-Prefix.pch */,
+				F191516B17BF03DA00C198C7 /* Default.png */,
+				F191516D17BF03DA00C198C7 /* Default@2x.png */,
+				F191516F17BF03DA00C198C7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F191518517BF083E00C198C7 /* AnimationFrames */ = {
+			isa = PBXGroup;
+			children = (
+				F19151D017BF0A6200C198C7 /* BouncingBalls1.png */,
+				F19151CF17BF0A6200C198C7 /* BouncingBalls2.png */,
+				F19151CE17BF0A6200C198C7 /* BouncingBalls3.png */,
+				F19151CD17BF0A6200C198C7 /* BouncingBalls4.png */,
+				F19151CC17BF0A6200C198C7 /* BouncingBalls5.png */,
+				F19151CB17BF0A6200C198C7 /* BouncingBalls6.png */,
+				F19151CA17BF0A6200C198C7 /* BouncingBalls7.png */,
+				F19151C917BF0A6200C198C7 /* BouncingBalls8.png */,
+				F19151C817BF0A6200C198C7 /* BouncingBalls9.png */,
+				F191518F17BF083E00C198C7 /* BouncingBalls10.png */,
+				F191519017BF083E00C198C7 /* BouncingBalls11.png */,
+				F191519117BF083E00C198C7 /* BouncingBalls12.png */,
+				F191519217BF083E00C198C7 /* BouncingBalls13.png */,
+				F191519317BF083E00C198C7 /* BouncingBalls14.png */,
+				F191519417BF083E00C198C7 /* BouncingBalls15.png */,
+				F191519517BF083E00C198C7 /* BouncingBalls16.png */,
+				F191519617BF083E00C198C7 /* BouncingBalls17.png */,
+				F191519717BF083E00C198C7 /* BouncingBalls18.png */,
+				F191519817BF083E00C198C7 /* BouncingBalls19.png */,
+				F191519917BF083E00C198C7 /* BouncingBalls20.png */,
+				F191519A17BF083E00C198C7 /* BouncingBalls21.png */,
+				F191519B17BF083E00C198C7 /* BouncingBalls22.png */,
+				F191519C17BF083E00C198C7 /* BouncingBalls23.png */,
+				F191519D17BF083E00C198C7 /* BouncingBalls24.png */,
+				F191519E17BF083E00C198C7 /* BouncingBalls25.png */,
+				F191519F17BF083E00C198C7 /* BouncingBalls26.png */,
+				F19151A017BF083E00C198C7 /* BouncingBalls27.png */,
+				F19151A117BF083E00C198C7 /* BouncingBalls28.png */,
+				F19151A217BF083E00C198C7 /* BouncingBalls29.png */,
+				F19151A317BF083E00C198C7 /* BouncingBalls30.png */,
+			);
+			path = AnimationFrames;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F191515517BF03D900C198C7 /* VideoAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F191517C17BF03DA00C198C7 /* Build configuration list for PBXNativeTarget "VideoAnimation" */;
+			buildPhases = (
+				F191515217BF03D900C198C7 /* Sources */,
+				F191515317BF03D900C198C7 /* Frameworks */,
+				F191515417BF03D900C198C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoAnimation;
+			productName = VideoAnimation;
+			productReference = F191515617BF03D900C198C7 /* VideoAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F191514E17BF03D900C198C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VA;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = F191515117BF03D900C198C7 /* Build configuration list for PBXProject "VideoAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F191514D17BF03D900C198C7;
+			productRefGroup = F191515717BF03D900C198C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F191515517BF03D900C198C7 /* VideoAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F191515417BF03D900C198C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F191516417BF03D900C198C7 /* InfoPlist.strings in Resources */,
+				F191516C17BF03DA00C198C7 /* Default.png in Resources */,
+				F191516E17BF03DA00C198C7 /* Default@2x.png in Resources */,
+				F191517017BF03DA00C198C7 /* Default-568h@2x.png in Resources */,
+				F191517617BF03DA00C198C7 /* VAViewController_iPhone.xib in Resources */,
+				F191517917BF03DA00C198C7 /* VAViewController_iPad.xib in Resources */,
+				F19151AD17BF083E00C198C7 /* BouncingBalls10.png in Resources */,
+				F19151AE17BF083E00C198C7 /* BouncingBalls11.png in Resources */,
+				F19151AF17BF083E00C198C7 /* BouncingBalls12.png in Resources */,
+				F19151B017BF083E00C198C7 /* BouncingBalls13.png in Resources */,
+				F19151B117BF083E00C198C7 /* BouncingBalls14.png in Resources */,
+				F19151B217BF083E00C198C7 /* BouncingBalls15.png in Resources */,
+				F19151B317BF083E00C198C7 /* BouncingBalls16.png in Resources */,
+				F19151B417BF083E00C198C7 /* BouncingBalls17.png in Resources */,
+				F19151B517BF083E00C198C7 /* BouncingBalls18.png in Resources */,
+				F19151B617BF083E00C198C7 /* BouncingBalls19.png in Resources */,
+				F19151B717BF083E00C198C7 /* BouncingBalls20.png in Resources */,
+				F19151B817BF083E00C198C7 /* BouncingBalls21.png in Resources */,
+				F19151B917BF083E00C198C7 /* BouncingBalls22.png in Resources */,
+				F19151BA17BF083E00C198C7 /* BouncingBalls23.png in Resources */,
+				F19151BB17BF083E00C198C7 /* BouncingBalls24.png in Resources */,
+				F19151BC17BF083E00C198C7 /* BouncingBalls25.png in Resources */,
+				F19151BD17BF083E00C198C7 /* BouncingBalls26.png in Resources */,
+				F19151BE17BF083E00C198C7 /* BouncingBalls27.png in Resources */,
+				F19151BF17BF083E00C198C7 /* BouncingBalls28.png in Resources */,
+				F19151C017BF083E00C198C7 /* BouncingBalls29.png in Resources */,
+				F19151C117BF083E00C198C7 /* BouncingBalls30.png in Resources */,
+				F19151D117BF0A6200C198C7 /* BouncingBalls9.png in Resources */,
+				F19151D217BF0A6200C198C7 /* BouncingBalls8.png in Resources */,
+				F19151D317BF0A6200C198C7 /* BouncingBalls7.png in Resources */,
+				F19151D417BF0A6200C198C7 /* BouncingBalls6.png in Resources */,
+				F19151D517BF0A6200C198C7 /* BouncingBalls5.png in Resources */,
+				F19151D617BF0A6200C198C7 /* BouncingBalls4.png in Resources */,
+				F19151D717BF0A6200C198C7 /* BouncingBalls3.png in Resources */,
+				F19151D817BF0A6200C198C7 /* BouncingBalls2.png in Resources */,
+				F19151D917BF0A6200C198C7 /* BouncingBalls1.png in Resources */,
+				F19151DB17BF0F8300C198C7 /* blackback640x480.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F191515217BF03D900C198C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F191516617BF03D900C198C7 /* main.m in Sources */,
+				F191516A17BF03DA00C198C7 /* VAAppDelegate.m in Sources */,
+				F191517317BF03DA00C198C7 /* VAViewController.m in Sources */,
+				F19151C717BF093D00C198C7 /* VAAnimationLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F191516217BF03D900C198C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F191516317BF03D900C198C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F191517417BF03DA00C198C7 /* VAViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F191517517BF03DA00C198C7 /* en */,
+			);
+			name = VAViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		F191517717BF03DA00C198C7 /* VAViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F191517817BF03DA00C198C7 /* en */,
+			);
+			name = VAViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F191517A17BF03DA00C198C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F191517B17BF03DA00C198C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F191517D17BF03DA00C198C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoAnimation/VideoAnimation-Prefix.pch";
+				INFOPLIST_FILE = "VideoAnimation/VideoAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F191517E17BF03DA00C198C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VideoAnimation/VideoAnimation-Prefix.pch";
+				INFOPLIST_FILE = "VideoAnimation/VideoAnimation-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F191515117BF03D900C198C7 /* Build configuration list for PBXProject "VideoAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F191517A17BF03DA00C198C7 /* Debug */,
+				F191517B17BF03DA00C198C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F191517C17BF03DA00C198C7 /* Build configuration list for PBXNativeTarget "VideoAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F191517D17BF03DA00C198C7 /* Debug */,
+				F191517E17BF03DA00C198C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F191514E17BF03D900C198C7 /* Project object */;
+}
